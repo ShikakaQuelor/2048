@@ -3,9 +3,9 @@
 The now more or less classic game 2048. Merge tiles in an attempt to get the infamous 2048 tile. 
 Includes the ability to change grid-size.
 
-```
+
 [Play here](https://shikakaquelor.github.io/2048/)
-```
+
 
 ## TODO
 ```
