@@ -20,5 +20,4 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
 }
-
 </style>
