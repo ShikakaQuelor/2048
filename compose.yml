@@ -1,0 +1,15 @@
+services:
+  2048:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: 2048
+    restart: unless-stopped
+    expose:
+      - "3000"
+    networks:
+      - caddy_net
+
+networks:
+  caddy_net:
+    external: true
