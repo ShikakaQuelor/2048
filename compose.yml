@@ -1,9 +1,9 @@
 services:
-  2048:
+  game-2048:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: 2048
+    container_name: game-2048
     restart: unless-stopped
     expose:
       - "3000"
