@@ -1,16 +1,9 @@
 <template>
-  <Game></Game>
+  <Game />
 </template>
 
-<script>
-import Game from './components/Game';
-
-export default {
-  name: 'App',
-  components: {
-    Game
-  }
-}
+<script setup>
+import Game from './components/Game.vue'
 </script>
 
 <style>

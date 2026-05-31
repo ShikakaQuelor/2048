@@ -18,13 +18,7 @@
   </div>
 </template>
 
-<script>
-export default {
-
-}
-</script>
-
-<style scoped lang="scss">
+<style scoped>
 .info-wrapper {
   margin-top: 20px;
   position: relative;
